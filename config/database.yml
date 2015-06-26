@@ -1,0 +1,35 @@
+development:
+ adapter: postgresql
+ encoding: utf8
+ database: yadcari_server_development
+ pool: 5
+ username: yadcari
+ password: yadcari
+ host: 127.0.0.1
+
+staging:
+ adapter: postgresql
+ encoding: utf8
+ database: yadcari_server_production
+ pool: 5
+ username: yadcari
+ password: yadcari
+ host: 127.0.0.1
+
+production:
+ adapter: postgresql
+ encoding: utf8
+ database: yadcari_server_production
+ pool: 5
+ username: yadcari
+ password: yadcari
+ host: 127.0.0.1
+
+test:
+ adapter: postgresql
+ encoding: utf8
+ database: yadcari_server_test
+ pool: 5
+ username: yadcari
+ password: yadcari
+ host: 127.0.0.1
